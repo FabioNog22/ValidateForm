@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div role="main">
+        <div class="row">
+            <div class="container col-lg-8 offset-lg-2 col-md-8 offset-md-2">
+                <div class="card border">
+                    <div class="card-header">
+                        <div class="card-title">
+                            Cadastro de cliente
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="/cliente" method="POST">
+                            <div class="form-group">
+                                <label for="nome">Nome do Cliente</label>
+                                <input 
+                                    type="text" 
+                                    name="nome" 
+                                    id="nome" 
+                                    class="form-control"
+                                    placeholder="Nome do Cliente"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="idade">Idade do Cliente</label>
+                                <input 
+                                    type="number" 
+                                    name="idade" 
+                                    id="idade" 
+                                    class="form-control"
+                                    placeholder="Idade do Cliente"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="endereco">Endereço do Cliente</label>
+                                <input 
+                                    type="text" 
+                                    name="endereco" 
+                                    id="endereco" 
+                                    class="form-control"
+                                    placeholder="Endereço do Cliente"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email do Cliente</label>
+                                <input 
+                                    type="text" 
+                                    name="email" 
+                                    id="email" 
+                                    class="form-control"
+                                    placeholder="Email do Cliente"
+                                >
+                            </div>
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

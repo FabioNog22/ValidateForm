@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
+    <style>
+        body{
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <div role="main">
@@ -59,7 +64,8 @@
                                     placeholder="Email do Cliente"
                                 >
                             </div>
-                            <button type="submit" class="btn btn-primary">Salvar</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
+                            <button type="cancel" class="btn btn-danger btn-sm">Cancelar</button>
                         </form>
                     </div>
                 </div>
